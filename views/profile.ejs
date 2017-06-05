@@ -1,0 +1,47 @@
+<!-- views/profile.ejs -->
+<!doctype html>
+<html>
+<head>
+	<title>User Profile</title>
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+	<style>
+		body 		{ padding-top:80px; word-wrap:break-word; 
+		background-image:url('http://www.3d-wallpapers.info/wp-content/uploads/wallpaper-nature-3d-600x375.jpg');
+		background-size:cover;}
+		a:hover{color:red;}
+		a{color:black;text-decoration:none;}
+	</style>
+</head>
+<a href="/signup">Main</a>
+<a href="/lol">Posts</a>
+<a href="/forum">Forum</a>
+<body>
+<div class="container">
+
+	<div class="page-header text-center">
+		<h1><span class="fa fa-user"></span> Profile Page</h1>
+		<a href="/logout" class="btn btn-default btn-sm">Logout</a>
+	</div>
+
+	<div class="row">
+
+		<!-- LOCAL INFORMATION -->
+		<div class="col-sm-6">
+			<div class="well">
+				<h3><span class="fa fa-user"></span>You</h3>
+
+					<p>
+						<strong>id</strong>: <%= user.id %><br>
+						<strong>username</strong>: <%= user.username %><br>
+						<strong>password</strong>: <%= user.password %>
+					</p>
+<p><a href="/lol">Continue to site</a>.</p>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+</body>
+</html>

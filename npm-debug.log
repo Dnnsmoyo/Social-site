@@ -1,0 +1,220 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   '4.0' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose config Skipping project config: C:\Users\Dennis/.npmrc. (matches userconfig)
+5 verbose install initial load of C:\Users\Dennis\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\bcrypt\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\bcrypt-nodejs\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\body-parser\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\connect\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\connect-flash\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\cookie-parser\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\debug\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\ejs\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\express\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\express-fileupload\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\express-flash\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\express-session\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\express-validator\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\git\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\google-auth-library\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\googleapis\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\jade\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\jade-bootstrap\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\jsonfile\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\method-override\package.json
+26 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\morgan\package.json
+27 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\multer\package.json
+28 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\mysql\package.json
+29 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\nedb\package.json
+30 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\node-php\package.json
+31 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\node-webkit\package.json
+32 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\passport\package.json
+33 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\passport-local\package.json
+34 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\php-express\package.json
+35 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\public\package.json
+36 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\pug\package.json
+37 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\req-flash\package.json
+38 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\router\package.json
+39 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\routes\package.json
+40 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\serve-favicon\package.json
+41 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\socket.io\package.json
+42 verbose installManyTop reading scoped package data from C:\Users\Dennis\node_modules\then-busboy\package.json
+43 info package.json connect-flash@0.1.1 No license field.
+44 info package.json express-flash@0.0.2 No license field.
+45 info package.json git@0.1.5 No license field.
+46 info package.json passport@0.3.2 No README data
+47 info package.json node-webkit@0.0.0 No README data
+48 info package.json bcrypt-nodejs@0.0.3 No license field.
+49 info package.json passport-local@1.0.0 No license field.
+50 info package.json node-php@0.0.1 No license field.
+51 info package.json php-express@0.0.3 license should be a valid SPDX license expression
+52 info package.json routes@2.1.0 No license field.
+53 info package.json public@0.1.2 No license field.
+54 info package.json jade-bootstrap@1.0.9 license should be a valid SPDX license expression
+55 verbose readDependencies loading dependencies from C:\Users\Dennis\package.json
+56 verbose install express is installed as 4.15.2
+57 silly cache add args [ 'express', null ]
+58 verbose cache add spec express
+59 silly cache add args [ '4.0', null ]
+60 verbose cache add spec 4.0
+61 silly cache add parsed spec Result {
+61 silly cache add   raw: 'express',
+61 silly cache add   scope: null,
+61 silly cache add   name: 'express',
+61 silly cache add   rawSpec: '',
+61 silly cache add   spec: 'latest',
+61 silly cache add   type: 'tag' }
+62 silly addNamed express@latest
+63 verbose addNamed "latest" is being treated as a dist-tag for express
+64 info addNameTag [ 'express', 'latest' ]
+65 silly mapToRegistry name express
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry data Result {
+68 silly mapToRegistry   raw: 'express',
+68 silly mapToRegistry   scope: null,
+68 silly mapToRegistry   name: 'express',
+68 silly mapToRegistry   rawSpec: '',
+68 silly mapToRegistry   spec: 'latest',
+68 silly mapToRegistry   type: 'tag' }
+69 silly mapToRegistry uri https://registry.npmjs.org/express
+70 verbose addNameTag registry:https://registry.npmjs.org/express not in flight; fetching
+71 silly cache add parsed spec Result {
+71 silly cache add   raw: '4.0',
+71 silly cache add   scope: null,
+71 silly cache add   name: '4.0',
+71 silly cache add   rawSpec: '',
+71 silly cache add   spec: 'latest',
+71 silly cache add   type: 'tag' }
+72 silly addNamed 4.0@latest
+73 verbose addNamed "latest" is being treated as a dist-tag for 4.0
+74 info addNameTag [ '4.0', 'latest' ]
+75 silly mapToRegistry name 4.0
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry data Result {
+78 silly mapToRegistry   raw: '4.0',
+78 silly mapToRegistry   scope: null,
+78 silly mapToRegistry   name: '4.0',
+78 silly mapToRegistry   rawSpec: '',
+78 silly mapToRegistry   spec: 'latest',
+78 silly mapToRegistry   type: 'tag' }
+79 silly mapToRegistry uri https://registry.npmjs.org/4.0
+80 verbose addNameTag registry:https://registry.npmjs.org/4.0 not in flight; fetching
+81 verbose request uri https://registry.npmjs.org/4.0
+82 verbose request no auth needed
+83 info attempt registry request try #1 at 12:07:44 PM
+84 verbose request id 1756a58c4f8f089a
+85 http request GET https://registry.npmjs.org/4.0
+86 verbose request uri https://registry.npmjs.org/express
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 12:07:44 PM
+89 verbose etag W/"58e29821-8bb0c"
+90 verbose lastModified Mon, 03 Apr 2017 18:44:49 GMT
+91 http request GET https://registry.npmjs.org/express
+92 http 404 https://registry.npmjs.org/4.0
+93 verbose headers { 'content-type': 'application/json',
+93 verbose headers   'cache-control': 'max-age=0',
+93 verbose headers   'content-length': '2',
+93 verbose headers   'accept-ranges': 'bytes',
+93 verbose headers   date: 'Wed, 05 Apr 2017 10:07:55 GMT',
+93 verbose headers   via: '1.1 varnish',
+93 verbose headers   age: '0',
+93 verbose headers   connection: 'keep-alive',
+93 verbose headers   'x-served-by': 'cache-lcy1138-LCY',
+93 verbose headers   'x-cache': 'MISS',
+93 verbose headers   'x-cache-hits': '0',
+93 verbose headers   'x-timer': 'S1491386875.020409,VS0,VE381',
+93 verbose headers   vary: 'Accept-Encoding' }
+94 silly get cb [ 404,
+94 silly get   { 'content-type': 'application/json',
+94 silly get     'cache-control': 'max-age=0',
+94 silly get     'content-length': '2',
+94 silly get     'accept-ranges': 'bytes',
+94 silly get     date: 'Wed, 05 Apr 2017 10:07:55 GMT',
+94 silly get     via: '1.1 varnish',
+94 silly get     age: '0',
+94 silly get     connection: 'keep-alive',
+94 silly get     'x-served-by': 'cache-lcy1138-LCY',
+94 silly get     'x-cache': 'MISS',
+94 silly get     'x-cache-hits': '0',
+94 silly get     'x-timer': 'S1491386875.020409,VS0,VE381',
+94 silly get     vary: 'Accept-Encoding' } ]
+95 http 200 https://registry.npmjs.org/express
+96 verbose headers { server: 'nginx/1.10.1',
+96 verbose headers   'content-type': 'application/json',
+96 verbose headers   'last-modified': 'Tue, 04 Apr 2017 12:20:39 GMT',
+96 verbose headers   etag: 'W/"58e38f97-8bb1c"',
+96 verbose headers   'content-encoding': 'gzip',
+96 verbose headers   'cache-control': 'max-age=300',
+96 verbose headers   'content-length': '43348',
+96 verbose headers   'accept-ranges': 'bytes',
+96 verbose headers   date: 'Wed, 05 Apr 2017 10:07:54 GMT',
+96 verbose headers   via: '1.1 varnish',
+96 verbose headers   age: '282',
+96 verbose headers   connection: 'keep-alive',
+96 verbose headers   'x-served-by': 'cache-lcy1139-LCY',
+96 verbose headers   'x-cache': 'HIT',
+96 verbose headers   'x-cache-hits': '9',
+96 verbose headers   'x-timer': 'S1491386875.523403,VS0,VE0',
+96 verbose headers   vary: 'Accept-Encoding' }
+97 silly get cb [ 200,
+97 silly get   { server: 'nginx/1.10.1',
+97 silly get     'content-type': 'application/json',
+97 silly get     'last-modified': 'Tue, 04 Apr 2017 12:20:39 GMT',
+97 silly get     etag: 'W/"58e38f97-8bb1c"',
+97 silly get     'content-encoding': 'gzip',
+97 silly get     'cache-control': 'max-age=300',
+97 silly get     'content-length': '43348',
+97 silly get     'accept-ranges': 'bytes',
+97 silly get     date: 'Wed, 05 Apr 2017 10:07:54 GMT',
+97 silly get     via: '1.1 varnish',
+97 silly get     age: '282',
+97 silly get     connection: 'keep-alive',
+97 silly get     'x-served-by': 'cache-lcy1139-LCY',
+97 silly get     'x-cache': 'HIT',
+97 silly get     'x-cache-hits': '9',
+97 silly get     'x-timer': 'S1491386875.523403,VS0,VE0',
+97 silly get     vary: 'Accept-Encoding' } ]
+98 verbose get saving express to C:\Users\Dennis\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+99 verbose correctMkdir C:\Users\Dennis\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+100 silly addNameTag next cb for express with tag latest
+101 silly addNamed express@4.15.2
+102 verbose addNamed "4.15.2" is a plain semver version for express
+103 silly cache afterAdd express@4.15.2
+104 verbose afterAdd C:\Users\Dennis\AppData\Roaming\npm-cache\express\4.15.2\package\package.json not in flight; writing
+105 verbose correctMkdir C:\Users\Dennis\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+106 verbose afterAdd C:\Users\Dennis\AppData\Roaming\npm-cache\express\4.15.2\package\package.json written
+107 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/4.0
+107 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+107 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+107 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+107 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+107 verbose stack     at emitTwo (events.js:87:13)
+107 verbose stack     at Request.emit (events.js:172:7)
+107 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+107 verbose stack     at emitOne (events.js:82:20)
+107 verbose stack     at Request.emit (events.js:169:7)
+107 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+108 verbose statusCode 404
+109 verbose pkgid 4.0
+110 verbose cwd C:\Users\Dennis\passport
+111 error Windows_NT 6.1.7601
+112 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express" "4.0"
+113 error node v4.4.5
+114 error npm  v2.15.5
+115 error code E404
+116 error 404 Registry returned 404 for GET on https://registry.npmjs.org/4.0
+116 error 404
+116 error 404 '4.0' is not in the npm registry.
+116 error 404 You should bug the author to publish it (or use the name yourself!)
+116 error 404
+116 error 404 Note that you can also install from a
+116 error 404 tarball, folder, http url, or git url.
+117 verbose exit [ 1, true ]
